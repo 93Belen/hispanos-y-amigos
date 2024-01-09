@@ -8,7 +8,7 @@ export default function Event(){
                     <span>JAN</span>
                 </div>
                 <h3>Next Meeting</h3>
-                <p className='col-span-2 md:col-span-1 md:col-start-2 relative top-[-25px]'>
+                <p className='col-span-2 md:col-span-1 md:col-start-2 z-0 relative top-[-25px]'>
                 Join us for our monthly meeting on Thursday, 
                 November 30th, at Kolaches And Coffee at 6:00pm!
 

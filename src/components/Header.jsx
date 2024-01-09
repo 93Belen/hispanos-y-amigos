@@ -62,7 +62,7 @@ export default function Header(){
              animate={{ x: -25 }}
              exit={{ x: '-100%' }}
              transition={{duration: 0.5}}
-            className='flex fixed top-0 flex-col justify-between w-[50vw] h-full bg-slate-400 text-center'>
+            className='flex fixed z-50 top-0 flex-col justify-between w-[50vw] h-full bg-slate-400 text-center'>
             <div></div>
              <Link to='/'>Home</Link>
              <Link to='/about'>About</Link>
