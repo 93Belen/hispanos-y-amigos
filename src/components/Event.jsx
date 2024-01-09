@@ -3,11 +3,11 @@ export default function Event(){
         <div className=' bg-slate-600 border-black border-2 rounded-lg h-fit pb-4 md:max-w-[900px] md:self-end'>
             <div className='flex flex-col md:flex-row bg-slate-300 p-7 gap-10 md:gap-20 md:p-11 md:pb-14'>
             <div className='grid grid-cols-2 md:grid-cols-[40%_60%] gap-4 grid-rows-2 md:grid-rows-[40%_60%] md:w-[35%]'>
-                <div className='border-r-4 p-2 border-x-slate-500 md:row-span-2 h-[70%] w-[70%]'>
-                    <h3 className=''>25</h3>
-                    <span>JAN</span>
+                <div className='border-r-4 p-2 text-center border-x-slate-500 md:row-span-2 h-[70%] w-[70%]'>
+                    <h3 className='font-bold'>25</h3>
+                    <span className='font-bold'>JAN</span>
                 </div>
-                <h3>Next Meeting</h3>
+                <h3 className='font-bold'>Next Meeting</h3>
                 <p className='col-span-2 md:col-span-1 md:col-start-2 z-0 relative top-[-25px]'>
                 Join us for our monthly meeting on Thursday, 
                 January 25th, at Kolaches And Coffee at 6:00pm!
