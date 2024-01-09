@@ -1,13 +1,13 @@
 import './App.css';
-import { Link } from 'react-router-dom';
+import Header from './components/Header';
 
 function App() {
 
   
   return (
-    <div>
+    <div id='app' className='p-4'>
+      <Header/>
     <h1>Hello World</h1>
-    <Link to="about">About Us</Link>
   </div>
   );
 }

@@ -1,0 +1,9 @@
+#app {
+    overflow-x: hidden;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
