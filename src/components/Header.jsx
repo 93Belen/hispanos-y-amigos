@@ -59,7 +59,7 @@ export default function Header(){
             {open && (
              <motion.div
              initial={{ x: '-100%' }}
-             animate={{ x: -15.5 }}
+             animate={{ x: -25 }}
              exit={{ x: '-100%' }}
              transition={{duration: 0.5}}
             className='flex fixed top-0 flex-col justify-between w-[50vw] h-full bg-slate-400 text-center'>
