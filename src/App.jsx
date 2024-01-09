@@ -1,11 +1,12 @@
 import './App.css';
+import Event from './components/Event';
 import Header from './components/Header';
 
 function App() {
 
   
   return (
-    <div className='app p-6 md:px-20 md:py-10'>
+    <div className='app p-6 md:px-20 md:py-10 h-fit'>
       <Header/>
       <div className='flex flex-col gap-6 py-8 md:max-w-[800px]'>
         <h1 className='text-[40px] md:text-[64px]'>Hispanos y Amigos Tech-KC</h1>
@@ -19,6 +20,7 @@ function App() {
         Because, as we like to say: 'Mi Club es su Club'.
         </p>
       </div>
+      <Event/>
   </div>
   );
 }
