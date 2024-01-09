@@ -1,6 +1,6 @@
 export default function Sign(){
     return (
-        <svg width="406" height="557" viewBox="0 0 406 557" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className='hidden md:block' width="406" height="557" viewBox="0 0 406 557" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M195.5 181L192 0" stroke="black"/>
         <ellipse cx="195.5" cy="187.5" rx="16.5" ry="13.5" fill="#D9D9D9"/>
         <path d="M195.231 201V207.716C191.641 209.954 185.078 215.505 187.539 219.803C190 224.101 195.744 224.28 198.308 223.833L206 221.147" stroke="black"/>

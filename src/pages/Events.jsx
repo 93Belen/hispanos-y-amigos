@@ -12,7 +12,7 @@ export default function Events(){
          y: -50
          }}
        transition={{delay: 7, type: 'spring', stiffness: 10, damping: 5}}
-       className='absolute top-0 left-[60vw]'>
+       className='absolute top-0 left-[60vw]  md:block hidden'>
       <Sign/>
       </motion.div>
             <Header/>
